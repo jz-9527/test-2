@@ -1,0 +1,37 @@
+.dialog{
+    z-index: 2050;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    margin: 0;
+    background-color: rgba(200, 200, 200, 0.6);
+}
+.dialog-body{
+    width: 30%;
+    position: relative;
+    margin: 15vh auto 50px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+    box-sizing: border-box;
+}
+.dialog-head{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.dialog-colse{
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.dialog-context{
+    padding: 20px 20px;
+}

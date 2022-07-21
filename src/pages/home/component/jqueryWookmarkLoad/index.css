@@ -1,0 +1,29 @@
+.box {
+    width: 100%;
+    background-color: aqua;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block {
+    background-color: #ff0000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.row-small .block {
+    width: 33%;
+}
+.row-middle .block {
+    width: 50%;
+}
+.row-max {
+    flex-direction: column;
+}
+.block {
+    border-top: 0;
+    border-bottom: 0;
+    width: 100%;
+}
+  
